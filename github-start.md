@@ -93,12 +93,13 @@ git push origin main
 <br>
 
 > <h5>.git/config 파일에서 설정파일 확인</h5>
-> * **repositoryformatversion** : 레포지토리 형식 및 버전 식별을 위한 내부 변수
-> * **filemode** : true or false 파일 변경 감지 여부 설정 (윈도우, 리눅스 동시 작업할경우 변경 안해도 변경됐다고 표시될 수 있음)
-> * **bare** : 코드 변경 작업 용도가 아닌 복사, 저장 용이면 true로 설정
-> * **logallrefupdates** : 깃 명령어 수행 로그 기록 활성화 git reflog 명령어로 기록된 작업 내역 확인
-> * **ignorecase** : 대소문자 구분여부 설정 true- 구분하지 않음
-> * **precomposeunicode** : 맥OS에서 한글파일명 인식문제 true로 설정하면 해결됨
+>
+* **repositoryformatversion** : 레포지토리 형식 및 버전 식별을 위한 내부 변수
+* **filemode** : true or false 파일 변경 감지 여부 설정 (윈도우, 리눅스 동시 작업할경우 변경 안해도 변경됐다고 표시될 수 있음)
+* **bare** : 코드 변경 작업 용도가 아닌 복사, 저장 용이면 true로 설정
+* **logallrefupdates** : 깃 명령어 수행 로그 기록 활성화 git reflog 명령어로 기록된 작업 내역 확인
+* **ignorecase** : 대소문자 구분여부 설정 true- 구분하지 않음
+* **precomposeunicode** : 맥OS에서 한글파일명 인식문제 true로 설정하면 해결됨
 
 <br>
 <h4> 관리에서 제외할 파일 및 폴더를 지정</h4>
