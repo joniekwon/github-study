@@ -2,49 +2,58 @@
 ***
 지역 저장소로 관리할 폴더 우클릭 - Git Bash Here
 <h4>깃 지역 저장소로 지정</h4>
+
 ```
 git init
 ```
 취소하려면 .git폴더 삭제 ` rm -rf .git`<br>
 <h4>커밋에 포함될 파일 등록</h4>
+
 ```
 git add 파일명
 git add README.md
 ```
 <h4>커밋하기</h4>
+
 ```
 git commit -m "저장소설명"
 ```
 
 <h4>커밋 상태 확인</h4>
+
 ```
 git log
 ```
 
-git commit --amend --autho
+git commit --amend --author
 또는
 ```
 git commit --amend --no-edit  #커밋 메시지 수정안하고 커밋
 ```
 
 <h4>커밋 상태 확인</h4>
+
 ```
 git log
 ```
 <h4>커밋 저자 등록</h4>
+
 ```
 git config user.name "userName"
-git config user.email "email"
+git config user.email "userEmail@email.com"
 ```
 `-global` 옵션으로 전역으로 선언 가능
 
 <h4>커밋 저자 정보 수정</h4>
+
+
 ```
 git commit --amend --author "userName <email>"
 ```
 
 
 <h4>리모트 저장소(깃헙) 등록</h4>
+
 ```
 git remote add origin 주소
 ```
@@ -52,6 +61,7 @@ git remote add origin 주소
 
 
 <h4>로컬 저장소에서 생성한 커밋을 깃헙에 등록</h4>
+
 ```
 git push origin main
 ```
