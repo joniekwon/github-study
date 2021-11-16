@@ -3,7 +3,7 @@
 ***
 
 <br>
->Another git process seems to be running in this repository~~
+> Another git process seems to be running in this repository~~
 
 위와 같은 오류 발생시 아래 명령어로 락걸린 파일 삭제해서 해결(ㅎ)
 ```
