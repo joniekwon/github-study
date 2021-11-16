@@ -91,6 +91,7 @@ git push origin main
 > main은 리모트저장소의 branch 이름 정한것
 
 <br>
+
 > <h5>.git/config 파일에서 설정파일 확인</h5>
 > * **repositoryformatversion** : 레포지토리 형식 및 버전 식별을 위한 내부 변수
 > * **filemode** : true or false 파일 변경 감지 여부 설정 (윈도우, 리눅스 동시 작업할경우 변경 안해도 변경됐다고 표시될 수 있음)
@@ -117,9 +118,10 @@ git log --pretty=oneline
 git log --preetty=format:"%h %an %s"		# %h: 짧은 커밋 해시, %an: 저자이름 %s: 커밋요약
 git log --pretty=oneline --graph		#커밋 로그 가시적으로 보기
 ```
+
 > ▼ --pretty 옵션에서 사용할 수 있는 출력 형식
 >
-> | 형식  |    설명    |  형식  |      설명      |
+| 형식  |    설명    |  형식  |      설명      |
 |:----:|:------------:|:-----:|:--------------:|
 | %H   | 커밋 해시     |%ae   |   저자 이메일   |
 | %h   | 짧은 커밋 해시|%ar    | 저자 상대적 시각|
