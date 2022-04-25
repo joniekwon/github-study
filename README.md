@@ -9,3 +9,16 @@
 ```
 rm -f ./.git/index.lock
 ```
+
+
+### 
+git branch joniekwon_week1
+git checkout joniekwon_week1
+~작업~
+git commit -am "comimit message"
+git push
+
+git push origin joniekwon_week1
+
+깃허브 돌아와서 compare pull request
+제목, 내용 작성 후 create pull request
